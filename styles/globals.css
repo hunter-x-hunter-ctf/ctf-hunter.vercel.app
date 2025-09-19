@@ -115,6 +115,11 @@
   --color-sidebar-ring: var(--sidebar-ring);
 }
 
+/* Hide v0 badge */
+div[data-v0-badge] {
+  display: none !important;
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
